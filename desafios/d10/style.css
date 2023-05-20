@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & family= Nabla & display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(../fontes/idroid.otf);
+}
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+
+    --fonte-padrão: Arial, Helvetica, sans-serif;
+    --fonte-destaque:  'nabla', cursiva;
+    --fonte-android: 'android', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    font-family: var(--fonte-destaque);
+    padding: 10px 10px 0px 10px;
+    
+    text-align: center;
+    
+    
+    
+}
+header p{
+    font-family: var(--fonte-padrão);
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.61);
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    font-size: 1.2em;
+}
+header h1{
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.61);
+    font-family: var(--fonte-destaque);
+    font-size: 2.5em;
+    padding-bottom: 20px;
+    font-weight: normal;
+    
+}
+nav{ 
+    
+    
+    padding: 20px;
+    text-align: left;
+    
+}
+
+nav > a{
+    color: var(--cor1);
+    
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+    transition-duration: .5s;
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: var(--cor2);
+}
+body{
+    background-color: var(--cor0);
+    margin: 0px 20px 0px 20px;
+    
+}
+
+main{
+    background-color: white;
+   
+    padding: 10px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    margin-bottom: 15px;
+}
+main p{
+    text-indent: 15px;
+    padding: 15px 0px;
+    text-align: justify;
+    font-size: 1.1em;
+    font-weight: 2em;
+
+}
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+}
+main  a{
+    color: var(--cor5);
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
+    
+}
+main img{
+    width: 100%;
+}
+
+main img.peguena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+main > p{
+    font-family: var(--fonte-padrão);
+    text-align: justify;
+    padding: 10px;
+}
+article > h1{
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+    text-indent: 10px;
+    font-weight: normal;
+}
+article > ul{
+margin-left: 15px;
+}
+h2{
+    color: var(--cor4);
+    font-family: var(--fonte-android);
+    text-indent: 10px;
+    font-size: 1.3EM;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    font-weight: normal;
+}
+
+aside{  
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.26);
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+    
+}
+aside > h3{
+    color: white;
+    background-color: var(--cor4);
+    padding: 10px;
+    margin: -8px -8px 0px -8px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+footer{
+   background-color: var(--cor5);
+   text-align: center;
+   font-size: 0.9em;
+   color: white;
+   padding: 3px;
+}
+footer a{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
+a.externo::after{
+    content: '\00a0\1F517';
+
+} div.video{
+    background-color: var(--cor4);
+    margin: 0px -10px 30px -10px;
+    padding: 10px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div > iframe{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 95%;
+    height: 95%;
+}
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+}

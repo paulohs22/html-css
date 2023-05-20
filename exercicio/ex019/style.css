@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(156, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    color: blue;
+}
+h1#principal{
+    background-color: rgba(10, 10, 138, 0.493);
+    color: white;
+    text-align: center;
+}
+.basico{
+    color: rgba(0, 0, 255, 0.555);
+}
+.intermediario{
+    color: blueviolet;
+}
+.avançado{
+    color: rgb(231, 156, 17);
+}
+.marcado{
+    background-color: rgba(211, 211, 45, 0.74);
+}
+p{
+    text-align: justify;
+}

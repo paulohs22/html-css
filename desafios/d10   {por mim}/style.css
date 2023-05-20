@@ -1,0 +1,63 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px 10px 0px 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: green;
+    background-image: linear-gradient(green black);
+}
+header > p#edit{ 
+    text-align: left;
+    padding-top: 10px;
+    
+}
+header > p#edit:hover{
+    text-decoration: underline;
+}
+body{
+    background-color: lightgreen;
+    margin: 0px 20px 0px 20px;
+    
+}
+main{
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    margin: 5px;
+}
+main > h1{
+    color: green;
+    font-family: 'android', times,  sans-serif;
+    text-indent: 10px;
+}
+h2{
+    color: green;
+    background-color: rgba(144, 238, 144, 0.336);
+    font-family: 'android', sans-serif;
+    text-indent: 10px;
+}
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+}
+#aprender{
+    background-color: rgb(93, 233, 93);
+    padding: 6px;
+    border-radius: 10px 10px 0px 0px;
+}
+nav{
+    background-color: rgb(169, 250, 169);
+    margin: 10px;
+    border-radius: 10px;
+    
+    
+}
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+p{
+    text-indent: 15px;
+}
