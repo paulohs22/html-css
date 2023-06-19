@@ -15,16 +15,18 @@
         }
         table{
             margin: auto;
-            width: 400px;
+            width: 500px;
             border-collapse: collapse;
-            background-color: rgba(0, 128, 0, 0.411);
+            
             
         }
         td, th{
             border: 1px solid black;
             padding: 10px;
             text-transform: capitalize;
+            font-weight: bold;
             color: rgba(255, 255, 0, 0.829);
+            
             
             
         }
@@ -32,134 +34,146 @@
             text-align: right;
         }
         thead, tfoot{
-            background-color: cadetblue;
+            background-color: rgba(0, 0, 255, 0.432);
             color: aliceblue;
             
         }
-        tbody{
-            
+        tbody > tr:nth-child(even){
+            background-color: rgba(0, 128, 0, 0.295);
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgba(255, 255, 255, 0.295);
+        }
+
+        caption{
+            font-size: 1.4em;
+            text-transform: capitalize;
+            font-weight: bold;
+            background-color: darkgray;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
     
     <table>
+        <caption>população das unidades federativas</caption>
         <thead>
-            <th>ESTADO</th>
-            <th>POPULAÇÃO</th>
+            <th scope="col">ESTADO</th>
+            <th scope="col" style="width: 50px;">POPULAÇÃO</th>
         </thead>
         <tbody>
             <tr>
-                <th>são paulo</th>
+                <td>são paulo</td>
                 <td class="numero">46 024 937</td>
             </tr>
             <tr>
-                <th>minas gerais</th>
+                <td>minas gerais</td>
                 <td class="numero">20 732 660</td>
             </tr>
             <tr>
-                <th>rio de janeiro</th>
+                <td>rio de janeiro</td>
                 <td class="numero">16 615 526</td>
             </tr>
             <tr>
-                <th>bahia</th>
+                <td>bahia</td>
                 <td class="numero">14 659 023</td>
             </tr>
             <tr>
-                <th>paraná</th>
+                <td>paraná</td>
                 <td class="numero">11 835 379</td>
             </tr>
             <tr>
-                <th>rio grande do sul</th>
+                <td>rio grande do sul</td>
                 <td class="numero">11 088 065</td>
             </tr>
             <tr>
-                <th>pernanbuco</th>
+                <td>pernanbuco</td>
                 <td class="numero">9 051 113</td>
             </tr>
             <tr>
-                <th>ceará</th>
+                <td>ceará</td>
                 <td class="numero">8 936 431</td>
             </tr>
             <tr>
-                <th>pará</th>
+                <td>pará</td>
                 <td class="numero">8 442 962</td>
             </tr>
             <tr>
-                <th>santa catarina</th>
+                <td>santa catarina</td>
                 <td class="numero">7 762 154</td>
             </tr>
             <tr>
-                <th>goiás</th>
+                <td>goiás</td>
                 <td class="numero">6 950 976</td>
             </tr>
             <tr>
-                <th>maranhão</th>
+                <td>maranhão</td>
                 <td class="numero">6 800 605</td>
             </tr>
             <tr>
-                <th>espirito santo</th>
+                <td>espirito santo</td>
                 <td class="numero">4 108 508</td>
             </tr>
             <tr>
-                <th>paraiba</th>
+                <td>paraiba</td>
                 <td class="numero">4 030 961</td>
             </tr>
             <tr>
-                <th>amazonas</th>
+                <td>amazonas</td>
                 <td class="numero">3 952 262</td>
             </tr>
             <tr>
-                <th>mato grosso</th>
+                <td>mato grosso</td>
                 <td class="numero">3 784 239</td>
             </tr>
             <tr>
-                <th>rio grande do norte</th>
+                <td>rio grande do norte</td>
                 <td class="numero">3 303 953</td>
             </tr>
             <tr>
-                <th>piaui</th>
+                <td>piaui</td>
                 <td class="numero">3 270 174</td>
             </tr>
             <tr>
-                <th>alagoas</th>
+                <td>alagoas</td>
                 <td class="numero">3 120 494</td>
             </tr>
             <tr>
-                <th> Distrito Federal</th>
+                <td> Distrito Federal</td>
                 <td class="numero">	2 570 160</td>
             </tr>
             <tr>
-                <th>Mato Grosso do Sul</th>
+                <td>Mato Grosso do Sul</td>
                 <td class="numero">	2 449 024</td>
             </tr>
             <tr>
-                <th>Sergipe</th>
+                <td>Sergipe</td>
                 <td class="numero">2 068 017</td>
             </tr>
             <tr>
-                <th> Rondônia</th>
+                <td> Rondônia</td>
                 <td class="numero">1 616 379</td>
             </tr>
             <tr>
-                <th>tocantins</th>
+                <td>tocantins</td>
                 <td class="numero">1 584 306</td>
             </tr>
             <tr>
-                <th>acre</th>
+                <td>acre</td>
                 <td class="numero">829 780</td>
             
             <tr>
-                <th>amapá</th>
+                <td>amapá</td>
                 <td class="numero">774 268	</td>
             </tr>
             <tr>
-                <th>roraima</th>
+                <td>roraima</td>
                 <td class="numero">634 805	</td>
             </tr>
         </tbody>
         <tfoot>
-            <th>TOTAL</th>
+            <th scope="row">TOTAL</th>
             <td>210.147.126</td>
         </tfoot>
 
