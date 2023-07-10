@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+</head>
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    th, td{
+        
+        border: 1px solid black;
+        padding: 8px;
+    }
+    .verde{
+        background-color: rgb(136, 255, 0);
+    }
+    .azul{
+        background-color: aqua;
+    }
+    .amarelo{
+        background-color: yellow;
+    }
+</style>
+<body> 
+    <h1>exercicio de  tabela</h1>
+    <table>
+        <colgroup>
+            <col class="verde">
+            <col class="azul" span="2">
+            <col class="amarelo">
+        </colgroup>
+        <caption>cadastro</caption>
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>sexo</th>
+                <th>idade</th>
+                <th>profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ana maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>jornalista</td>
+            </tr>
+            <tr>
+                <td>cláudio</td>
+                <td>m</td>
+                <td>28</td>
+                <td>programador</td>
+            </tr>
+            <tr>
+                <td>gustavo</td>
+                <td>m</td>
+                <td>42</td>
+                <td>professor</td>
+            </tr>
+            <tr>
+                <td>hélio</td>
+                <td>m</td>
+                <td>19</td>
+                <td>vendedor</td>
+            </tr>
+            <tr>
+                <td>maria</td>
+                <td>f</td>
+                <td>39</td>
+                <td>médica</td>
+            </tr>
+            <tr>
+                <td>otávio</td>
+                <td>m</td>
+                <td>22</td>
+                <td>nutricionista</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
