@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>exemplo de formulários</h1>
+    <form action="cadastro.php" autocomplete="on">
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <p>
+                <label for="inome">nome</label>
+                <input type="text" name="nome" id="inome" autocomplete="cc-name" required>
+            </p>
+            <p>
+                <label for="iemail">email</label>
+                <input type="email" name="emial" id="iemail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="itelefone">Telefone</label>
+                <input type="tel" name="telefone" id="itelefone" pattern="\(\d{2}\)\d{4}-\d{4}" placeholder="(xx)xxxx-xxxx">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="apagar">
+        </p>
+
+    </form>
+</body>
+</html>
