@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elementos</title>
+</head>
+<body>
+    
+    <form action="cadastro.php" method="POST">
+        <p>
+            <label for="icor">cor:</label>
+            <input type="color" name="cor" id="icor">
+        </p>
+        <p>
+            <label for="iavali">Nivel de satisfação</label>
+            <input type="range" name="avali" id="iavali"  min="0" max="10" value="10">
+        </p>
+        <p>
+            <label for="iarq">adcionar foto</label>
+            <input type="file" name="arq" id="iarq">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="apagar">
+        </p>
+    </form>
+</body>
+</html>
